@@ -1,0 +1,378 @@
+object MainForm: TMainForm
+  Left = 302
+  Height = 399
+  Top = 168
+  Width = 680
+  Caption = 'Zita-AJ Bridge GUI'
+  ClientHeight = 399
+  ClientWidth = 680
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  SessionProperties = 'Height;Left;Top;Width;WindowState;PSLR.Position;PSTB.Position'
+  Visible = False
+  object PSLR: TPairSplitter
+    Left = 0
+    Height = 399
+    Top = 0
+    Width = 680
+    Align = alClient
+    Position = 150
+    object PSLRLeft: TPairSplitterSide
+      Cursor = crArrow
+      Left = 0
+      Height = 399
+      Top = 0
+      Width = 150
+      ClientWidth = 150
+      ClientHeight = 399
+      object GBDevices: TGroupBox
+        Left = 4
+        Height = 389
+        Top = 6
+        Width = 142
+        Align = alClient
+        BorderSpacing.Top = 2
+        BorderSpacing.Around = 4
+        Caption = 'Devices'
+        ClientHeight = 362
+        ClientWidth = 138
+        TabOrder = 0
+        object LBDevices: TListBox
+          AnchorSideLeft.Control = GBDevices
+          AnchorSideTop.Control = GBDevices
+          AnchorSideRight.Control = GBDevices
+          AnchorSideRight.Side = asrBottom
+          AnchorSideBottom.Control = BtnRefresh
+          Left = 8
+          Height = 313
+          Top = 8
+          Width = 122
+          Align = alCustom
+          Anchors = [akTop, akLeft, akRight, akBottom]
+          BorderSpacing.Around = 8
+          ItemHeight = 0
+          OnSelectionChange = LBDevicesSelectionChange
+          TabOrder = 0
+        end
+        object BtnRefresh: TButton
+          AnchorSideLeft.Control = LBDevices
+          AnchorSideLeft.Side = asrCenter
+          AnchorSideTop.Side = asrBottom
+          AnchorSideBottom.Control = GBDevices
+          AnchorSideBottom.Side = asrBottom
+          Left = 31
+          Height = 25
+          Top = 329
+          Width = 68
+          Align = alCustom
+          Anchors = [akBottom]
+          AutoSize = True
+          BorderSpacing.Around = 8
+          Caption = '&Refresh'
+          OnClick = BtnRefreshClick
+          TabOrder = 1
+        end
+      end
+    end
+    object PSLRRight: TPairSplitterSide
+      Cursor = crArrow
+      Left = 155
+      Height = 399
+      Top = 0
+      Width = 525
+      ClientWidth = 525
+      ClientHeight = 399
+      object PanelConnection: TPanel
+        Left = 0
+        Height = 397
+        Top = 2
+        Width = 525
+        Align = alClient
+        BorderSpacing.Top = 2
+        BevelOuter = bvNone
+        TabOrder = 0
+      end
+      object PSTB: TPairSplitter
+        Cursor = crVSplit
+        Left = 0
+        Height = 399
+        Top = 0
+        Width = 525
+        Align = alClient
+        Position = 240
+        SplitterType = pstVertical
+        object PSTBTop: TPairSplitterSide
+          Cursor = crArrow
+          Left = 0
+          Height = 240
+          Top = 0
+          Width = 525
+          ClientWidth = 525
+          ClientHeight = 240
+          object GBConnSettings: TGroupBox
+            Left = 4
+            Height = 230
+            Top = 4
+            Width = 517
+            Align = alClient
+            AutoSize = True
+            BorderSpacing.Bottom = 2
+            BorderSpacing.Around = 4
+            Caption = 'Connection Settings'
+            ClientHeight = 203
+            ClientWidth = 513
+            TabOrder = 0
+            object PForms: TPanel
+              Left = 0
+              Height = 162
+              Top = 0
+              Width = 513
+              Align = alClient
+              AutoSize = True
+              BevelOuter = bvNone
+              ChildSizing.LeftRightSpacing = 4
+              ChildSizing.TopBottomSpacing = 4
+              ChildSizing.HorizontalSpacing = 4
+              ChildSizing.VerticalSpacing = 4
+              ChildSizing.EnlargeHorizontal = crsHomogenousSpaceResize
+              ChildSizing.EnlargeVertical = crsHomogenousSpaceResize
+              ChildSizing.ShrinkHorizontal = crsHomogenousSpaceResize
+              ChildSizing.ShrinkVertical = crsHomogenousSpaceResize
+              ChildSizing.Layout = cclLeftToRightThenTopToBottom
+              ChildSizing.ControlsPerLine = 4
+              ClientHeight = 162
+              ClientWidth = 513
+              TabOrder = 0
+              object RBZitaA2J: TRadioButton
+                Left = 15
+                Height = 29
+                Top = 5
+                Width = 118
+                Caption = 'zita-a2j'
+                Checked = True
+                TabOrder = 0
+                TabStop = True
+              end
+              object RBZitaJ2A: TRadioButton
+                Left = 148
+                Height = 29
+                Top = 5
+                Width = 118
+                Caption = 'zita-j2a'
+                TabOrder = 1
+              end
+              object LblJackName: TLabel
+                Left = 281
+                Height = 29
+                Top = 5
+                Width = 124
+                Caption = 'Jack client name:'
+                Layout = tlCenter
+                ParentColor = False
+              end
+              object EditJackClientName: TEdit
+                Left = 420
+                Height = 29
+                Top = 5
+                Width = 80
+                TabOrder = 2
+                Text = 'zita-a2j'
+              end
+              object LblSampleRate: TLabel
+                Left = 15
+                Height = 29
+                Top = 39
+                Width = 118
+                Caption = 'Sample rate:'
+                Layout = tlCenter
+                ParentColor = False
+              end
+              object EditSampleRate: TEdit
+                Left = 148
+                Height = 29
+                Top = 39
+                Width = 118
+                TabOrder = 3
+                Text = '48000'
+              end
+              object LblPeriod: TLabel
+                Left = 281
+                Height = 29
+                Top = 39
+                Width = 124
+                Caption = 'Period:'
+                Layout = tlCenter
+                ParentColor = False
+              end
+              object EditPeriod: TEdit
+                Left = 420
+                Height = 29
+                Top = 39
+                Width = 80
+                TabOrder = 4
+                Text = '256'
+              end
+              object NoFrag: TLabel
+                Left = 15
+                Height = 29
+                Top = 72
+                Width = 118
+                Caption = 'No. of fragments:'
+                Layout = tlCenter
+                ParentColor = False
+              end
+              object EditNoFrag: TEdit
+                Left = 148
+                Height = 29
+                Top = 72
+                Width = 118
+                TabOrder = 5
+                Text = '2'
+              end
+              object LblNoChannel: TLabel
+                Left = 281
+                Height = 29
+                Top = 72
+                Width = 124
+                Caption = 'No. of channels:'
+                Layout = tlCenter
+                ParentColor = False
+              end
+              object EditNoChannel: TEdit
+                Left = 420
+                Height = 29
+                Top = 72
+                Width = 80
+                TabOrder = 6
+                Text = '2'
+              end
+              object LblResamplingQuality: TLabel
+                Left = 15
+                Height = 29
+                Top = 105
+                Width = 118
+                Caption = 'Resampling quality:'
+                Layout = tlCenter
+                ParentColor = False
+              end
+              object EditResamplingQuality: TEdit
+                Left = 148
+                Height = 29
+                Top = 105
+                Width = 118
+                TabOrder = 7
+                Text = '48'
+              end
+              object LblLatencyAdjustment: TLabel
+                Left = 281
+                Height = 29
+                Top = 105
+                Width = 124
+                Caption = 'Latency adjustment:'
+                Layout = tlCenter
+                ParentColor = False
+              end
+              object EditLatencyAdjustment: TEdit
+                Left = 420
+                Height = 29
+                Top = 105
+                Width = 80
+                TabOrder = 8
+                Text = '0'
+              end
+              object CBForce16Bit: TCheckBox
+                Left = 15
+                Height = 20
+                Top = 138
+                Width = 118
+                Caption = 'Force 16-Bit'
+                TabOrder = 9
+              end
+              object CBPrintTrace: TCheckBox
+                Left = 148
+                Height = 20
+                Top = 138
+                Width = 118
+                Caption = 'Print trace info'
+                TabOrder = 10
+              end
+            end
+            object PButtons: TPanel
+              Left = 0
+              Height = 41
+              Top = 162
+              Width = 513
+              Align = alBottom
+              AutoSize = True
+              BevelOuter = bvNone
+              ChildSizing.LeftRightSpacing = 4
+              ChildSizing.TopBottomSpacing = 4
+              ChildSizing.HorizontalSpacing = 4
+              ChildSizing.VerticalSpacing = 4
+              ChildSizing.EnlargeHorizontal = crsHomogenousSpaceResize
+              ChildSizing.EnlargeVertical = crsHomogenousSpaceResize
+              ChildSizing.ShrinkHorizontal = crsHomogenousSpaceResize
+              ChildSizing.ShrinkVertical = crsHomogenousSpaceResize
+              ChildSizing.Layout = cclLeftToRightThenTopToBottom
+              ChildSizing.ControlsPerLine = 4
+              ClientHeight = 41
+              ClientWidth = 513
+              ParentColor = False
+              TabOrder = 1
+              object BtnConnect: TButton
+                Left = 220
+                Height = 25
+                Top = 8
+                Width = 73
+                AutoSize = True
+                BorderSpacing.Around = 8
+                Caption = '&Connect'
+                OnClick = BtnConnectClick
+                TabOrder = 0
+              end
+            end
+          end
+        end
+        object PSTBBottom: TPairSplitterSide
+          Cursor = crArrow
+          Left = 0
+          Height = 154
+          Top = 245
+          Width = 525
+          ClientWidth = 525
+          ClientHeight = 154
+          object GBLog: TGroupBox
+            Left = 4
+            Height = 144
+            Top = 6
+            Width = 517
+            Align = alClient
+            AutoSize = True
+            BorderSpacing.Top = 2
+            BorderSpacing.Around = 4
+            Caption = 'Output Log'
+            ClientHeight = 117
+            ClientWidth = 513
+            TabOrder = 0
+            object MemoLog: TMemo
+              Left = 8
+              Height = 101
+              Top = 8
+              Width = 497
+              Align = alClient
+              BorderSpacing.Around = 8
+              OnChange = MemoLogChange
+              TabOrder = 0
+            end
+          end
+        end
+      end
+    end
+  end
+  object PSMain: TIniPropStorage
+    StoredValues = <>
+    Left = 61
+    Top = 76
+  end
+end

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Release i386 Qt"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="zitaajbridgegui.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ZitaAJBridgeGUI"/>
+        <TopLine Value="3"/>
+        <CursorPos X="11" Y="14"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="src/formmain.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="18" Y="178"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="src/ajbridgeprocessthread.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AJBridgeProcessThread"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="108"/>
+        <CursorPos X="62" Y="117"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="src/alsahelper.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AlsaHelper"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="70"/>
+        <CursorPos X="3" Y="45"/>
+        <UsageCount Value="56"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1712"/>
+        <CursorPos X="9" Y="1613"/>
+        <UsageCount Value="8"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/objpas/classes/classes.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="227"/>
+        <CursorPos X="3" Y="229"/>
+        <UsageCount Value="8"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../LinuxShared/lazarus-svn/lcl/stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="580"/>
+        <CursorPos X="14" Y="590"/>
+        <UsageCount Value="8"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../LinuxShared/lazarus-svn/lcl/include/customlistbox.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="573"/>
+        <CursorPos X="3" Y="575"/>
+        <UsageCount Value="8"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/unix/tthread.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="258"/>
+        <CursorPos X="25" Y="49"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../../LinuxShared/fpc/source/packages/fcl-process/src/process.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="300"/>
+        <CursorPos Y="307"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../../LinuxShared/lazarus-svn/lcl/include/messagedialogs.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="303"/>
+        <CursorPos X="20" Y="312"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../../../LinuxShared/lazarus-svn/lcl/dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="643"/>
+        <CursorPos X="10" Y="738"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../../Sources/Pascal/lazaruspackages/lazandroidmodulewizard/android_wizard/lamwdesigner.pas"/>
+        <UnitName Value="LamwDesigner"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="646"/>
+        <CursorPos X="25" Y="656"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/unix/sysutils.pp"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="52"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/objpas/sysutils/sysutilh.inc"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="316"/>
+        <CursorPos X="16" Y="323"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/objpas/sysutils/syshelph.inc"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="72"/>
+        <CursorPos X="19" Y="132"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../../Sources/Pascal/lazaruspackages/brookframework/brokers/brookfclhttpappbroker.pas"/>
+        <UnitName Value="BrookFCLHttpAppBroker"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="29" HistoryIndex="27">
+      <Position1>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="202" Column="48" TopLine="181"/>
+      </Position1>
+      <Position2>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="201" Column="48" TopLine="180"/>
+      </Position2>
+      <Position3>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="200" Column="48" TopLine="179"/>
+      </Position3>
+      <Position4>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="199" Column="48" TopLine="178"/>
+      </Position4>
+      <Position5>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="198" Column="48" TopLine="177"/>
+      </Position5>
+      <Position6>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="197" Column="48" TopLine="176"/>
+      </Position6>
+      <Position7>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="196" Column="48" TopLine="175"/>
+      </Position7>
+      <Position8>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="195" Column="48" TopLine="174"/>
+      </Position8>
+      <Position9>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="194" Column="48" TopLine="173"/>
+      </Position9>
+      <Position10>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="193" Column="48" TopLine="172"/>
+      </Position10>
+      <Position11>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="192" Column="48" TopLine="171"/>
+      </Position11>
+      <Position12>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="191" Column="48" TopLine="170"/>
+      </Position12>
+      <Position13>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="190" Column="48" TopLine="169"/>
+      </Position13>
+      <Position14>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="189" Column="48" TopLine="168"/>
+      </Position14>
+      <Position15>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="188" Column="48" TopLine="167"/>
+      </Position15>
+      <Position16>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="187" Column="48" TopLine="166"/>
+      </Position16>
+      <Position17>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="209" Column="48" TopLine="188"/>
+      </Position17>
+      <Position18>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="208" Column="48" TopLine="187"/>
+      </Position18>
+      <Position19>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="207" Column="48" TopLine="186"/>
+      </Position19>
+      <Position20>
+        <Filename Value="src/ajbridgeprocessthread.pp"/>
+        <Caret Line="176" Column="19" TopLine="167"/>
+      </Position20>
+      <Position21>
+        <Filename Value="src/ajbridgeprocessthread.pp"/>
+        <Caret Line="88" Column="3" TopLine="76"/>
+      </Position21>
+      <Position22>
+        <Filename Value="src/ajbridgeprocessthread.pp"/>
+        <Caret Line="36" Column="15" TopLine="14"/>
+      </Position22>
+      <Position23>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="209" Column="48" TopLine="173"/>
+      </Position23>
+      <Position24>
+        <Filename Value="src/ajbridgeprocessthread.pp"/>
+        <Caret Line="117" Column="62" TopLine="108"/>
+      </Position24>
+      <Position25>
+        <Filename Value="src/formmain.pp"/>
+        <Caret Line="178" Column="18"/>
+      </Position25>
+      <Position26>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/objpas/sysutils/sysutilh.inc"/>
+      </Position26>
+      <Position27>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/objpas/sysutils/sysutilh.inc"/>
+        <Caret Line="323" Column="16" TopLine="316"/>
+      </Position27>
+      <Position28>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/objpas/sysutils/syshelph.inc"/>
+        <Caret Line="132" Column="63" TopLine="128"/>
+      </Position28>
+      <Position29>
+        <Filename Value="../../../../LinuxShared/fpc/source/rtl/objpas/sysutils/syshelph.inc"/>
+        <Caret Line="5" Column="3"/>
+      </Position29>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
