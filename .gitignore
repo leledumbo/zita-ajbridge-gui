@@ -1,4 +1,7 @@
 /lib/*
 /zitaajbridgegui-i386-gtk2
+/zitaajbridgegui-i386-qt
+/zitaajbridgegui-i386-qt5
 /zitaajbridgegui-x86_64-gtk2
 /zitaajbridgegui-x86_64-qt
+/zitaajbridgegui-x86_64-qt5

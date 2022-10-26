@@ -9,7 +9,7 @@ uses
   {$ENDIF}{$ENDIF}
   Interfaces,
   Forms,
-  FormMain;
+  FormMain, asoundlib;
 
 {$R *.res}
 
